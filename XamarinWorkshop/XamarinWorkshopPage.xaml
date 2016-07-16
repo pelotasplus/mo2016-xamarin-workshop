@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinWorkshop" x:Class="XamarinWorkshop.XamarinWorkshopPage" Title="User list">
+	<StackLayout>
+		<!--		<Label
+			x:Name="Label"
+			Text="{Binding SelectedPerson.Name}"
+			VerticalOptions="Center"
+			HorizontalOptions="Center"
+			/>-->
+		<StackLayout Orientation="Horizontal">
+			<Entry Text="{Binding Keyword}" HorizontalOptions="FillAndExpand" />
+			<Button Command="{Binding SearchCommand}" Text="Search" />
+		</StackLayout>
+		<ListView x:Name="UsersListView" ItemsSource="{Binding Users}" SelectedItem="{Binding SelectedPerson}">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<Label HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large" Text="{Binding login}" />
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</StackLayout>
+</ContentPage>

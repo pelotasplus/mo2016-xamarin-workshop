@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="Droid/XamarinWorkshop.Droid.csproj" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinWorkshop/XamarinWorkshopPage.xaml.cs">
+    <Files>
+      <File FileName="XamarinWorkshop/XamarinWorkshopPage.xaml.cs" Line="34" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XamarinWorkshop.Droid PreferredExecutionTarget="Android.Nexus_5_API_23" />
+  <MonoDevelop.Ide.ItemProperties.XamarinWorkshop.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.316D7BC7-34D0-4DD7-B073-93DD97783C55" />
+</Properties>

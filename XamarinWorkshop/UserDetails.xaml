@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinWorkshop.UserDetails">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+<!--            <Style TargetType="Label">
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+
+            <Style x:Key="greenLabel" TargetType="Label">
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="Green" />
+            </Style>-->
+        </ResourceDictionary>
+    </ContentPage.Resources>
+	<ContentPage.Content>
+		<StackLayout Orientation="Horizontal" VerticalOptions="Start">
+			<Image x:Name="Avatar" HeightRequest="160" WidthRequest="160" />
+			<StackLayout Orientation="Vertical" Padding="10,0,0,0">
+				<Label x:Name="FirstName" Text="{Binding User.FirstName}" />
+				<Label x:Name="LastName" Text="{Binding User.LastName}" />
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

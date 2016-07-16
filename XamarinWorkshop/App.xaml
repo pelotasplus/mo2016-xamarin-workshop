@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinWorkshop.App">
+	<Application.Resources>
+		<!-- Application resource dictionary -->
+		<ResourceDictionary>
+			<Style TargetType="Label">
+				<Setter Property="FontSize" Value="Large" />
+				<Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="Red" />
+			</Style>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
